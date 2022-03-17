@@ -1,12 +1,12 @@
 // Write your solution in this file!
 var customerName = 'bob'
-var bestCustomer = 'not bob'
+const leastFavoriteCustomer = 'some initial value'
 
-function uppercaseCustomerName() {
+function upperCaseCustomerName() {
     customerName = customerName.toUpperCase()
 }
 
-function bestCustomerName() {
+function setBestCustomer() {
     bestCustomer = 'not bob'
 }
 
